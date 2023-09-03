@@ -1,11 +1,63 @@
 body{
     background-color: #ffa801;
 }
+.mycontainer1{
+    padding-top: 2rem;
+    padding-left: 50px;
+}
+.logo1{
+    height: 3.5rem;
+    width: 4rem;
+}
+.logo2{
+    height: 3.5rem;
+    width: 10rem;
+    padding-left: 15px;
+}
 
-.container h1{
+.mycontainer2{
+    padding-left: 60px;
+    padding-top: 15px;
+}
+.mycontainer2 h1{
     color: white;
     font-family: 'Lato', sans-serif;
 }
+
+.mycontainer3 h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.logo3{
+    position: fixed;
+    bottom: 10px;
+    left: 50px;
+}
+.triedge{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    position: fixed;
+    bottom: 10px;
+    left: 50px;
+
+}
+.line{
+    height: 0.75rem;
+    width: 76%;
+    background-color: white;
+    position: absolute;
+    bottom: 8rem;
+}
+
+.vectorimg{
+    position: absolute;
+    /*left: 66.5rem;*/
+    right: 5rem;
+    bottom: 3rem;
+}
+/*
 .flex-container{
     display: flex;
     align-items: center;
@@ -14,11 +66,7 @@ body{
     margin: 10px;
 }
 
-.line{
-    height: 1rem;
-    width: 70%;
-    background-color: white;
-}
+
 .logo2{
     position: absolute;
     bottom: 1px;
@@ -39,11 +87,7 @@ body{
     color: black;
     font-size: 25px;
 }
-.vectorimg{
-    position: absolute;
-    left: 66.5rem;
-    bottom: 3rem;
-}
+
 .hiring{
     position: absolute;
     right: 15%;
@@ -53,3 +97,4 @@ body{
     height: 150px;
     width: 150px;
 }
+*/
