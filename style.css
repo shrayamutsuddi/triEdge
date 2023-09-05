@@ -1,9 +1,24 @@
 body{
     background-color: #ffa801;
+    width: 100vw;
+    overflow-x: hidden;
+    /* padding: 1rem; */
 }
 .mycontainer1{
+    display: flex;
+    align-items: center;
     padding-top: 2rem;
     padding-left: 50px;
+}
+.logo{
+    max-width: 120px;
+   
+
+}
+.logo-text{
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 25px;
 }
 .logo1{
     height: 3.5rem;
@@ -15,7 +30,9 @@ body{
     padding-left: 15px;
 }
 
+
 .mycontainer2{
+    color: white;
     padding-left: 60px;
     padding-top: 15px;
 }
@@ -49,6 +66,10 @@ body{
     background-color: white;
     position: absolute;
     bottom: 8rem;
+    overflow: hidden;
+    z-index: 0;
+
+
 }
 
 .vectorimg{
@@ -57,6 +78,78 @@ body{
     right: 5rem;
     bottom: 3rem;
 }
+.hiring-img{
+    display: none;
+
+
+}
+.class-item{
+    display: flex;
+}
+.main-item{
+    display: block;
+}
+@media screen and (max-width: 500px) {
+    body{
+        background-color:#ffa801;
+    }
+    .mycontainer1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 2rem;
+        padding-left: 0;
+    }
+    .vectorimg{
+        position: relative;
+        text-align: center;
+        top: 1rem;
+        right: 0;
+        bottom: 0;
+    }
+    .hiring-img{
+        display: block;
+        height: 100px;
+        /* margin-top:1.5rem; */
+    
+    }
+    .line{
+      display: none;
+    }
+    .mycontainer2{
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        background-color: #f8b12d;
+        /* color: black; */
+        display: flex;
+        margin-right: 5px;
+        margin-top: 2rem;
+        padding-left: 0;
+        padding-top: 0;
+        color:#ffa801;
+
+        
+        /* margin: 0.5rem; */
+    }
+    .class-item1,.class-item2,.class-item3,.class-item{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    padding-left: 1rem;
+    
+   }
+   .main-item{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+    font-size: 22px;
+}
+   
+   
+  }
 /*
 .flex-container{
     display: flex;
